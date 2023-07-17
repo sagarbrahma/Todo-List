@@ -1,0 +1,139 @@
+
+.todo-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+.todo-heading {
+  text-align: center;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #770af4;
+}
+.todo-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.todo-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #0657e3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.todo-table th,
+.todo-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-table th {
+  background-color: #f2f2f2;
+}
+
+.todo-edit-input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+
+.completed-todo {
+  text-decoration: line-through;
+  color: #aa4042;
+}
+.todo-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.todo-update-button{
+  padding: 6px 12px;
+  margin-right: 6px;
+  background-color:rgb(11, 165, 242);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.todo-edit-button{
+  padding: 6px 12px;
+  margin-right: 6px;
+  background-color: rgb(4, 243, 151);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.todo-delete-button {
+  padding: 6px 12px;
+  margin-right: 6px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.todo-remove-all-button {
+  display: block;
+  margin: 50px auto 50px;
+
+  padding: 8px 16px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
